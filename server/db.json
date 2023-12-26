@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "name": "A53",
+      "price": 4500000,
+      "category": "mobile",
+      "description": "توض",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "A54",
+      "price": "25000",
+      "category": "mobile",
+      "description": "توضیحاتی ندارم!"
+    },
+    {
+      "id": 3,
+      "name": "Deep Work",
+      "price": 34000,
+      "category": "book",
+      "description": "کتاب کار عمیق"
+    }
+  ]
+}
