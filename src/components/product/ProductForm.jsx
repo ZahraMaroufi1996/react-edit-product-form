@@ -14,9 +14,6 @@ const ProductForm = ({ onSubmit, mode = "add" }) => {
   } = useForm();
 
   const { id } = useParams();
-  // console.log(id);
-  // console.log(mode);
-  // console.log("hiiiiiiiiiiiii");
 
   const getProductInfo = () => {
     axios
@@ -33,11 +30,9 @@ const ProductForm = ({ onSubmit, mode = "add" }) => {
       });
   };
 
-  //   if (mode === "edit") {
   useEffect(() => {
     if (mode === "edit") getProductInfo();
   }, []);
-  //   }
 
   return (
     <form
